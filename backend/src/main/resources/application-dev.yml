@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/${db_name}
+    username: ${db_username}
+    password: ${db_password}
+
+logging:
+  level:
+    org.springframework.security: debug
